@@ -2,25 +2,25 @@
 
 ## Features  
 
-✅ **Standard Calculator** – Supports **trigonometric, logarithmic, and algebraic operations**  
+✅ **Standard Calculator**
 
-✅ **LaTeX Mode** – Parse and evaluate **LaTeX math expressions**  
+✅ **LaTeX Mode**
 
-✅ **Customizable Buttons** – Right-click any function button to **rename it**  
+✅ **Customizable Buttons**
 
-✅ **History Tracking** – Save, review, and restore past calculations  
+✅ **History Tracking**
 
 ✅ **Custom Function Mappings** – Define **custom aliases** for functions (e.g., `arcsin` → `asin`)  
 
-✅ **Dark & Light Mode** – Toggle between themes  
+✅ **Dark & Light Mode**
 
-✅ **Multi-Language Support** – English & 中文 (more can be added)  
+✅ **Multi-Language Support** – English & 现代汉语 (todo: German)  
 
-✅ **Modern UI** – Styled with **smooth fonts and intuitive layout**  
+✅ **Modern UI**
 
 ## Help & Documentation  
 
-For usage tips and guides, check the **Help** tab inside the app.
+For usage tips, check the **Help** button inside the app.
 
 ## License  
 
