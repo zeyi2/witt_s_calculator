@@ -2,7 +2,7 @@
 
 ## Features  
 
-✅ **Standard Calculator**
+✅ **Standard Mode** - SymPy syntax
 
 ✅ **LaTeX Mode**
 
