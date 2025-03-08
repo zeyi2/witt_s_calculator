@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>witt's Calculator</title>
+    <style>
+        body {
+            font-family: "Arial", sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #007BFF;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+            font-size: 1.2em;
+        }
+        td {
+            font-size: 1.1em;
+            background-color: #fafafa;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>witt's Calculator</h1>
+        <p>
+            A minimalism calculator made by witt.
+        </p>
+
+        <h2 class="highlight">Examples (Standard Calculator)</h2>
+        <table>
+            <tr>
+                <th>Feature</th>
+                <th>Syntax</th>
+                <th>Example</th>
+            </tr>
+            <tr>
+                <td>Limit</td>
+                <td>limit(exp, var, limit_point)</td>
+                <td>limit(1/x, x, oo)</td>
+            </tr>
+            <tr>
+                <td>Derivative</td>
+                <td>diff(exp, var, order)</td>
+                <td>diff(x**6, x, 5)</td>
+            </tr>
+            <tr>
+                <td>Integrals</td>
+                <td>integrate(exp, (var, lower, upper))</td>
+                <td>integrate(x**2, (x,0,1))</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
